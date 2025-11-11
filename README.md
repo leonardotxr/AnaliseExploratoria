@@ -11,6 +11,7 @@
 - `figuras/` → Pasta com os gráficos gerados 
 
 ---
+### Um commit é como se fosse um salvamento no GitHub, toda vez que é feito um commit, é como se estivéssemos fazendo um salvamento do nosso git, com o histórico e descrição das alterações feitas, podendo analisar toda a linha do tempo do projeto, e voltando a um passo antigo, se necessário.
 
 ## Texto com a descrição dos resultados gráficos obtidos
 
