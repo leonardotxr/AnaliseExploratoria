@@ -28,13 +28,13 @@ As medidas calculadas foram:
 
 | Medida | Definição |
 |--------|------------|
-| **Média** | Soma dos valores dividida pelo número de observações:  \(\bar{x} = \frac{\sum x_i}{n}\) |
+| **Média** | Soma dos valores dividida pelo número de observações:   |
 | **Mediana** | Valor central que divide os dados em duas metades iguais. |
 | **Primeiro Quartil (Q1)** | Valor que separa os 25% menores dados. |
 | **Terceiro Quartil (Q3)** | Valor que separa os 25% maiores dados. |
-| **Variância** | Mede a dispersão dos dados em relação à média:  \(s^2 = \frac{\sum (x_i - \bar{x})^2}{n-1}\) |
+| **Variância** | Mede a dispersão dos dados em relação à média:   |
 | **Desvio Padrão** | Raiz quadrada da variância, mede a dispersão na mesma unidade da variável. |
-| **Amplitude** | Diferença entre o maior e o menor valor da amostra:  \(A = \max(x) - \min(x)\) |
+| **Amplitude** | Diferença entre o maior e o menor valor da amostra:   |
 | **Correlação de Pearson** | Mede a intensidade e direção da relação linear entre duas variáveis. |
 
 ---
