@@ -35,11 +35,14 @@ print(resumo)
 
 # 4: Gráfico de dispersão e correlação 
 ggplot(df, aes(x = tempo_preso, y = score_periculosidade)) +
-  geom_point(alpha = 0.6) +
+  geom_point(alpha = 0.6, color = "steelblue") +
+  geom_smooth(method = "lm", se = FALSE, color = "red", linewidth = 1) +
   labs(title = "Dispersão: Tempo Preso vs Score de Periculosidade",
-       x = "Tempo Preso", y = "Score de Periculosidade")
-if(!dir.exists("figs")) dir.create("figs")
-ggsave("figs/disp_tempo_vs_score.png", width = 7, height = 5)
+       x = "Tempo Preso (meses)",
+       y = "Score de Periculosidade") +
+  theme_minimal()
+if(!dir.exists("figuras")) dir.create("figuras")
+ggsave("figuras/disp_tempo_vs_score.png", width = 7, height = 5)
 
 # Correlação
 cor_val <- cor(df$tempo_preso, df$score_periculosidade, use = "complete.obs")
